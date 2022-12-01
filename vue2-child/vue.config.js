@@ -3,7 +3,7 @@ const { name } = require('./package')
 const path = require('path')
 
 module.exports = defineConfig({
-  outputDir: path.join(__dirname, '../vue2-child'),
+  outputDir: path.join(__dirname, '../vue2-child-prd'),
   publicPath: process.env.VUE_APP_PUBLIC_PATH,
   devServer: {
     port: 8091,
